@@ -1,0 +1,76 @@
+{
+  "title": "PropertyVisit — a buyer-first redesign",
+  "question": "Choose a direction to preview. Both use native phone navigation, real property facts, working filters, and a clear booking flow.",
+  "options": [
+    {
+      "id": "material-index",
+      "kind": "assigned",
+      "label": "Material Index",
+      "lineage": "Architectural showroom material indexes",
+      "thesis": "Photography leads; precise property facts sit on a cool mineral-blue canvas.",
+      "palette": ["#EAF0F5", "#17364D", "#2367D1", "#FFFFFF"],
+      "materials": ["mineral-blue panels", "untinted property photography", "native system type"],
+      "viewport": "Catalog title, search and city/room filters, then broad property photos with aligned price and room/area facts; two native bottom tabs.",
+      "risk": "The mineral canvas needs strong photography or the app can feel too clinical.",
+      "html": ".impeccable/mocks/decision/material-index.html",
+      "htmlFrame": "390x844",
+      "raised": [
+        {"from": "Concourse board", "raise": "Align price, rooms, and area consistently across every listing."},
+        {"from": "Character catalog", "raise": "Give every property equally useful photographic space."},
+        {"from": "Garden guide", "raise": "Give selection a clear, consistent color role."},
+        {"from": "Type specimen", "raise": "Make the type hierarchy decisive without ornamental display type."},
+        {"from": "Travel document", "raise": "Keep date, time, and booking status together in viewing summaries."},
+        {"from": "Botanical folio", "raise": "Keep image proportions and comparison facts consistent."}
+      ]
+    },
+    {
+      "id": "residential-index",
+      "kind": "pick",
+      "kicker": "IMPECCABLE’S PICK",
+      "label": "Residential Index",
+      "lineage": "Contemporary residential architecture prospectuses",
+      "thesis": "A crisp, image-first property app with a deep-blue search header and quiet white listing rows.",
+      "palette": ["#163E71", "#FFFFFF", "#F2F5F9", "#1D63C6"],
+      "materials": ["blue navigation field", "large photography", "native system type"],
+      "viewport": "A blue title/search region above city and room filters; white listing rows show price first, then property name and address; native tabs stay visible.",
+      "risk": "Familiar and effective, but closer to established property apps than the other direction.",
+      "html": ".impeccable/mocks/decision/residential-index.html",
+      "htmlFrame": "390x844"
+    },
+    {
+      "id": "concourse", "kind": "challenger", "catalogId": "signals-instruments-split-flap-concourse", "label": "Concourse board", "verdict": "declined",
+      "thesis": "A dense, high-contrast index of properties and appointments.", "palette": ["#191D22", "#FFFFFF", "#D49A32"], "materials": ["dark ground", "aligned sans-serif rows"],
+      "viewport": "Search over dense photo-and-fact rows, with amber used only for pending appointments.", "risk": "Weak buyer identification; density makes homes feel like departures.", "case": "Loses on audience identification and property clarity.", "kept": "Aligned comparison facts, not flap animation."
+    },
+    {
+      "id": "roster", "kind": "challenger", "catalogId": "pop-culture-shelf-character-goods-catalog", "label": "Character catalog", "verdict": "declined",
+      "thesis": "An evenly paced property roster with soft blue and lilac surfaces.", "palette": ["#EAF0FC", "#EDE7F7", "#2B55AE"], "materials": ["flat pale fields", "regular photo cells"],
+      "viewport": "Native filters over equal-size property cells with clear names and facts.", "risk": "Playful merchandising weakens confidence for a major purchase.", "case": "Loses on audience identification and property clarity.", "kept": "Equal photographic attention for every property."
+    },
+    {
+      "id": "garden", "kind": "challenger", "catalogId": "aww2-zoo-gardens-guide-map", "label": "Garden guide", "verdict": "declined",
+      "thesis": "An optimistic green shell with saturated selection states.", "palette": ["#8ED462", "#F5F1E4", "#2C2E2A"], "materials": ["flat green fields", "plain system type"],
+      "viewport": "A green catalog header and standard native filters over photo-led listings.", "risk": "The leisure-guide association is weaker than the residential context.", "case": "Loses on audience identification and property clarity.", "kept": "Selection color must communicate state, not decorate."
+    },
+    {
+      "id": "specimen", "kind": "challenger", "catalogId": "emigre-bitmap-specimen", "label": "Type specimen", "verdict": "declined",
+      "thesis": "Strong price typography on a monochrome property index.", "palette": ["#FFFFFF", "#20252C", "#255FE1"], "materials": ["high contrast", "strong type scale"],
+      "viewport": "Large prices, photo rows, native filters, and a conventional tab bar.", "risk": "Bitmap character reduces legibility and feels unrelated to buying a home.", "case": "Loses on audience identification and property clarity.", "kept": "Decisive price-to-metadata hierarchy."
+    },
+    {
+      "id": "travel", "kind": "challenger", "catalogId": "vernacular-ephemera-boarding-pass-and-gate-board", "label": "Travel document", "verdict": "declined",
+      "thesis": "Appointments carry clear date, time, and persistent status.", "palette": ["#F3F5F7", "#202A35", "#D48622"], "materials": ["neutral panels", "tabular figures"],
+      "viewport": "Standard property navigation with compact appointment summaries and highlighted changes.", "risk": "Schedule-first emphasis makes property discovery secondary.", "case": "Loses on audience identification and clarity of the primary browsing task.", "kept": "Date, time, and status remain together."
+    },
+    {
+      "id": "folio", "kind": "challenger", "catalogId": "editorial-sequence-montage-botanical-folio-season", "label": "Botanical folio", "verdict": "declined",
+      "thesis": "Consistent photographic framing makes property comparison easier.", "palette": ["#F4F1E8", "#3F634E", "#353D38"], "materials": ["pale plate ground", "registered photo frames"],
+      "viewport": "Repeated photo proportions over tidy property facts with native navigation and booking controls.", "risk": "Botanical labeling and warm paper are a distraction from residential decisions.", "case": "Loses on audience identification and property clarity.", "kept": "Consistent photo scale and repeated comparison landmarks."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {"kind": "canon", "label": "Familiar property-app standard", "thesis": "A conventional property app, executed carefully.", "palette": ["#FFFFFF", "#18212C", "#2463CE"], "materials": ["white surfaces", "property photography"], "viewport": "Search, filters, listing photos, prices, and native navigation.", "risk": "Intentionally familiar rather than distinctive.", "html": ".impeccable/mocks/decision/canon.html", "htmlFrame": "390x844"},
+  "steer": true
+}
